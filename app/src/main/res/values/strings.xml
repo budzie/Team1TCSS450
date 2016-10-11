@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Team1TCSS450</string>
+    <string name="sally_was_here">Sally was here</string>
+    <string name="click_me">Click Me</string>
 </resources>

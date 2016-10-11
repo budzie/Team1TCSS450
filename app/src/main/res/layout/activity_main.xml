@@ -11,6 +11,16 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="tcss450.uw.edu.team1tcss450.MainActivity">
 
+    <Button
+        android:text="@string/click_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sally"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:onClick="sally"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,4 +39,5 @@
         android:layout_centerHorizontal="true"
         android:onClick="fromLan"
         android:id="@+id/buttonFromLan" />
+
 </RelativeLayout>

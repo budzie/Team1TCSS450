@@ -16,5 +16,12 @@ public class MainActivity extends AppCompatActivity {
     public void fromLan(View view){
             Intent intent = new Intent(MainActivity.this, fromLanActivity.class);
             startActivity(intent);
-    };
+    }
+
+
+
+    public void sally(View view){
+        Intent intent = new Intent(MainActivity.this, SallyWasHere.class);
+        startActivity(intent);
+    }
 }
